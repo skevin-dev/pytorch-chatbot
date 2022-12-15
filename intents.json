@@ -1,1759 +1,790 @@
 {
-   "intents":[
-      {
-         "tag":"Talk to Us ",
-         "patterns":[
-            "Guide me to Talk to Us ?",
-            "Where do you get Talk to Us ?",
-            "What is the link to the Talk to Us ?",
-            "How do you get Talk to Us ?",
-            "Who is in Charge of Talk to Us ?"
-         ],
-         "responses":[
-            "You can use this link # for more information"
-         ]
-      },
-      {
-         "tag":" Feedback",
-         "patterns":[
-            "Guide me to  Feedback?",
-            "Where do you get  Feedback?",
-            "What is the link to the  Feedback?",
-            "How do you get  Feedback?",
-            "Who is in Charge of  Feedback?"
-         ],
-         "responses":[
-            "You can use this link # for more information"
-         ]
-      },
-      {
-         "tag":"Download Mobile App",
-         "patterns":[
-            "Guide me to Download Mobile App?",
-            "Where do you get Download Mobile App?",
-            "What is the link to the Download Mobile App?",
-            "How do you get Download Mobile App?",
-            "Who is in Charge of Download Mobile App?"
-         ],
-         "responses":[
-            "You can use this link /information/prepare-to-fly/plan-your-travel-with-rwandair-app/ for more information"
-         ]
-      },
-      {
-         "tag":"Flight status",
-         "patterns":[
-            "Guide me to Flight status?",
-            "Where do you get Flight status?",
-            "What is the link to the Flight status?",
-            "How do you get Flight status?",
-            "Who is in Charge of Flight status?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/book/ for more information"
-         ]
-      },
-      {
-         "tag":"Track your cargo ",
-         "patterns":[
-            "Guide me to Track your cargo ?",
-            "Where do you get Track your cargo ?",
-            "What is the link to the Track your cargo ?",
-            "How do you get Track your cargo ?",
-            "Who is in Charge of Track your cargo ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/business-solutions/cargo-tracking/ for more information"
-         ]
-      },
-      {
-         "tag":" Wheel Chair ",
-         "patterns":[
-            "Guide me to  Wheel Chair ?",
-            "Where do you get  Wheel Chair ?",
-            "What is the link to the  Wheel Chair ?",
-            "How do you get  Wheel Chair ?",
-            "Who is in Charge of  Wheel Chair ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/prepare-to-fly/special-needs-assistance/ for more information"
-         ]
-      },
-      {
-         "tag":" Pet Info ",
-         "patterns":[
-            "Guide me to  Pet Info ?",
-            "Where do you get  Pet Info ?",
-            "What is the link to the  Pet Info ?",
-            "How do you get  Pet Info ?",
-            "Who is in Charge of  Pet Info ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/prepare-to-fly/special-needs-assistance/ for more information"
-         ]
-      },
-      {
-         "tag":" Lost Baggage",
-         "patterns":[
-            "Guide me to  Lost Baggage?",
-            "Where do you get  Lost Baggage?",
-            "What is the link to the  Lost Baggage?",
-            "How do you get  Lost Baggage?",
-            "Who is in Charge of  Lost Baggage?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/prepare-to-fly/baggage-claims/ for more information"
-         ]
-      },
-      {
-         "tag":"Special request & assistance",
-         "patterns":[
-            "Guide me to Special request & assistance?",
-            "Where do you get Special request & assistance?",
-            "What is the link to the Special request & assistance?",
-            "How do you get Special request & assistance?",
-            "Who is in Charge of Special request & assistance?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/prepare-to-fly/special-needs-assistance/ for more information"
-         ]
-      },
-      {
-         "tag":"Loyalty programme",
-         "patterns":[
-            "Guide me to Loyalty programme?",
-            "Where do you get Loyalty programme?",
-            "What is the link to the Loyalty programme?",
-            "How do you get Loyalty programme?",
-            "Who is in Charge of Loyalty programme?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/dream-miles/faqs/ for more information"
-         ]
-      },
-      {
-         "tag":"\n\n",
-         "patterns":[
-            "Guide me to \n\n?",
-            "Where do you get \n\n?",
-            "What is the link to the \n\n?",
-            "How do you get \n\n?",
-            "Who is in Charge of \n\n?"
-         ],
-         "responses":[
-            "You can use this link / for more information"
-         ]
-      },
-      {
-         "tag":" Book & Travel",
-         "patterns":[
-            "Guide me to  Book & Travel?",
-            "Where do you get  Book & Travel?",
-            "What is the link to the  Book & Travel?",
-            "How do you get  Book & Travel?",
-            "Who is in Charge of  Book & Travel?"
-         ],
-         "responses":[
-            "You can use this link # for more information"
-         ]
-      },
-      {
-         "tag":"Book Flight",
-         "patterns":[
-            "Guide me to Book Flight?",
-            "Where do you get Book Flight?",
-            "What is the link to the Book Flight?",
-            "How do you get Book Flight?",
-            "Who is in Charge of Book Flight?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/book/ for more information"
-         ]
-      },
-      {
-         "tag":"Where we fly",
-         "patterns":[
-            "Guide me to Where we fly?",
-            "Where do you get Where we fly?",
-            "What is the link to the Where we fly?",
-            "How do you get Where we fly?",
-            "Who is in Charge of Where we fly?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/ for more information"
-         ]
-      },
-      {
-         "tag":"Flight Schedule",
-         "patterns":[
-            "Guide me to Flight Schedule?",
-            "Where do you get Flight Schedule?",
-            "What is the link to the Flight Schedule?",
-            "How do you get Flight Schedule?",
-            "Who is in Charge of Flight Schedule?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/book/#timetable-tab for more information"
-         ]
-      },
-      {
-         "tag":"Flight Offers",
-         "patterns":[
-            "Guide me to Flight Offers?",
-            "Where do you get Flight Offers?",
-            "What is the link to the Flight Offers?",
-            "How do you get Flight Offers?",
-            "Who is in Charge of Flight Offers?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/fares/ for more information"
-         ]
-      },
-      {
-         "tag":"Hotel",
-         "patterns":[
-            "Guide me to Hotel?",
-            "Where do you get Hotel?",
-            "What is the link to the Hotel?",
-            "How do you get Hotel?",
-            "Who is in Charge of Hotel?"
-         ],
-         "responses":[
-            "You can use this link https://www.booking.com/index.html?aid=1469853#new_tab for more information"
-         ]
-      },
-      {
-         "tag":"Cars",
-         "patterns":[
-            "Guide me to Cars?",
-            "Where do you get Cars?",
-            "What is the link to the Cars?",
-            "How do you get Cars?",
-            "Who is in Charge of Cars?"
-         ],
-         "responses":[
-            "You can use this link https://cars.cartrawler.com/rwandair/?ClientID=534058#/searchcars for more information"
-         ]
-      },
-      {
-         "tag":"Tours",
-         "patterns":[
-            "Guide me to Tours?",
-            "Where do you get Tours?",
-            "What is the link to the Tours?",
-            "How do you get Tours?",
-            "Who is in Charge of Tours?"
-         ],
-         "responses":[
-            "You can use this link https://66457.partner.viator.com/#new_tabs for more information"
-         ]
-      },
-      {
-         "tag":"Partner deals",
-         "patterns":[
-            "Guide me to Partner deals?",
-            "Where do you get Partner deals?",
-            "What is the link to the Partner deals?",
-            "How do you get Partner deals?",
-            "Who is in Charge of Partner deals?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/promotional-offers/partner-deals/ for more information"
-         ]
-      },
-      {
-         "tag":" Check-in ",
-         "patterns":[
-            "Guide me to  Check-in ?",
-            "Where do you get  Check-in ?",
-            "What is the link to the  Check-in ?",
-            "How do you get  Check-in ?",
-            "Who is in Charge of  Check-in ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/checkin/ for more information"
-         ]
-      },
-      {
-         "tag":"Change Flight",
-         "patterns":[
-            "Guide me to Change Flight?",
-            "Where do you get Change Flight?",
-            "What is the link to the Change Flight?",
-            "How do you get Change Flight?",
-            "Who is in Charge of Change Flight?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/book/#booking-tab for more information"
-         ]
-      },
-      {
-         "tag":"Cancel Flight",
-         "patterns":[
-            "Guide me to Cancel Flight?",
-            "Where do you get Cancel Flight?",
-            "What is the link to the Cancel Flight?",
-            "How do you get Cancel Flight?",
-            "Who is in Charge of Cancel Flight?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/book/#booking-tab for more information"
-         ]
-      },
-      {
-         "tag":"Flight Status ",
-         "patterns":[
-            "Guide me to Flight Status ?",
-            "Where do you get Flight Status ?",
-            "What is the link to the Flight Status ?",
-            "How do you get Flight Status ?",
-            "Who is in Charge of Flight Status ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/book/#flightstatus-tab for more information"
-         ]
-      },
-      {
-         "tag":"Choose Seat",
-         "patterns":[
-            "Guide me to Choose Seat?",
-            "Where do you get Choose Seat?",
-            "What is the link to the Choose Seat?",
-            "How do you get Choose Seat?",
-            "Who is in Charge of Choose Seat?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/book/#booking-tab for more information"
-         ]
-      },
-      {
-         "tag":"Travel Insurance",
-         "patterns":[
-            "Guide me to Travel Insurance?",
-            "Where do you get Travel Insurance?",
-            "What is the link to the Travel Insurance?",
-            "How do you get Travel Insurance?",
-            "Who is in Charge of Travel Insurance?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/prepare-to-fly/rwandair-travel-insurance/ for more information"
-         ]
-      },
-      {
-         "tag":"Excess Baggage ",
-         "patterns":[
-            "Guide me to Excess Baggage ?",
-            "Where do you get Excess Baggage ?",
-            "What is the link to the Excess Baggage ?",
-            "How do you get Excess Baggage ?",
-            "Who is in Charge of Excess Baggage ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/prepare-to-fly/baggage/ for more information"
-         ]
-      },
-      {
-         "tag":"Destinations & Offers",
-         "patterns":[
-            "Guide me to Destinations & Offers?",
-            "Where do you get Destinations & Offers?",
-            "What is the link to the Destinations & Offers?",
-            "How do you get Destinations & Offers?",
-            "Who is in Charge of Destinations & Offers?"
-         ],
-         "responses":[
-            "You can use this link # for more information"
-         ]
-      },
-      {
-         "tag":" Abuja ",
-         "patterns":[
-            "Guide me to  Abuja ?",
-            "Where do you get  Abuja ?",
-            "What is the link to the  Abuja ?",
-            "How do you get  Abuja ?",
-            "Who is in Charge of  Abuja ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/abuja/ for more information"
-         ]
-      },
-      {
-         "tag":" Accra ",
-         "patterns":[
-            "Guide me to  Accra ?",
-            "Where do you get  Accra ?",
-            "What is the link to the  Accra ?",
-            "How do you get  Accra ?",
-            "Who is in Charge of  Accra ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/accra/ for more information"
-         ]
-      },
-      {
-         "tag":" Bangui ",
-         "patterns":[
-            "Guide me to  Bangui ?",
-            "Where do you get  Bangui ?",
-            "What is the link to the  Bangui ?",
-            "How do you get  Bangui ?",
-            "Who is in Charge of  Bangui ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/bangui/ for more information"
-         ]
-      },
-      {
-         "tag":" Brazzaville ",
-         "patterns":[
-            "Guide me to  Brazzaville ?",
-            "Where do you get  Brazzaville ?",
-            "What is the link to the  Brazzaville ?",
-            "How do you get  Brazzaville ?",
-            "Who is in Charge of  Brazzaville ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/brazzaville/ for more information"
-         ]
-      },
-      {
-         "tag":" Bujumbura ",
-         "patterns":[
-            "Guide me to  Bujumbura ?",
-            "Where do you get  Bujumbura ?",
-            "What is the link to the  Bujumbura ?",
-            "How do you get  Bujumbura ?",
-            "Who is in Charge of  Bujumbura ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/bujumbura/ for more information"
-         ]
-      },
-      {
-         "tag":" Cape town ",
-         "patterns":[
-            "Guide me to  Cape town ?",
-            "Where do you get  Cape town ?",
-            "What is the link to the  Cape town ?",
-            "How do you get  Cape town ?",
-            "Who is in Charge of  Cape town ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/cape-town/ for more information"
-         ]
-      },
-      {
-         "tag":" Cotonou ",
-         "patterns":[
-            "Guide me to  Cotonou ?",
-            "Where do you get  Cotonou ?",
-            "What is the link to the  Cotonou ?",
-            "How do you get  Cotonou ?",
-            "Who is in Charge of  Cotonou ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/cotonou/ for more information"
-         ]
-      },
-      {
-         "tag":" Dar Es salaam    ",
-         "patterns":[
-            "Guide me to  Dar Es salaam    ?",
-            "Where do you get  Dar Es salaam    ?",
-            "What is the link to the  Dar Es salaam    ?",
-            "How do you get  Dar Es salaam    ?",
-            "Who is in Charge of  Dar Es salaam    ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/dar-es-salaam/ for more information"
-         ]
-      },
-      {
-         "tag":" Douala ",
-         "patterns":[
-            "Guide me to  Douala ?",
-            "Where do you get  Douala ?",
-            "What is the link to the  Douala ?",
-            "How do you get  Douala ?",
-            "Who is in Charge of  Douala ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/douala/ for more information"
-         ]
-      },
-      {
-         "tag":" Entebbe ",
-         "patterns":[
-            "Guide me to  Entebbe ?",
-            "Where do you get  Entebbe ?",
-            "What is the link to the  Entebbe ?",
-            "How do you get  Entebbe ?",
-            "Who is in Charge of  Entebbe ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/entebbe/ for more information"
-         ]
-      },
-      {
-         "tag":" Harare ",
-         "patterns":[
-            "Guide me to  Harare ?",
-            "Where do you get  Harare ?",
-            "What is the link to the  Harare ?",
-            "How do you get  Harare ?",
-            "Who is in Charge of  Harare ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/harare/ for more information"
-         ]
-      },
-      {
-         "tag":" Johannesburg ",
-         "patterns":[
-            "Guide me to  Johannesburg ?",
-            "Where do you get  Johannesburg ?",
-            "What is the link to the  Johannesburg ?",
-            "How do you get  Johannesburg ?",
-            "Who is in Charge of  Johannesburg ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/johannesburg/ for more information"
-         ]
-      },
-      {
-         "tag":" Kamembe ",
-         "patterns":[
-            "Guide me to  Kamembe ?",
-            "Where do you get  Kamembe ?",
-            "What is the link to the  Kamembe ?",
-            "How do you get  Kamembe ?",
-            "Who is in Charge of  Kamembe ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/kamembe/ for more information"
-         ]
-      },
-      {
-         "tag":" Kigali    ",
-         "patterns":[
-            "Guide me to  Kigali    ?",
-            "Where do you get  Kigali    ?",
-            "What is the link to the  Kigali    ?",
-            "How do you get  Kigali    ?",
-            "Who is in Charge of  Kigali    ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/kigali/ for more information"
-         ]
-      },
-      {
-         "tag":" Kilimanjaro ",
-         "patterns":[
-            "Guide me to  Kilimanjaro ?",
-            "Where do you get  Kilimanjaro ?",
-            "What is the link to the  Kilimanjaro ?",
-            "How do you get  Kilimanjaro ?",
-            "Who is in Charge of  Kilimanjaro ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/kilimanjaro/ for more information"
-         ]
-      },
-      {
-         "tag":" Lagos ",
-         "patterns":[
-            "Guide me to  Lagos ?",
-            "Where do you get  Lagos ?",
-            "What is the link to the  Lagos ?",
-            "How do you get  Lagos ?",
-            "Who is in Charge of  Lagos ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/lagos/ for more information"
-         ]
-      },
-      {
-         "tag":" Libreville ",
-         "patterns":[
-            "Guide me to  Libreville ?",
-            "Where do you get  Libreville ?",
-            "What is the link to the  Libreville ?",
-            "How do you get  Libreville ?",
-            "Who is in Charge of  Libreville ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/libreville/ for more information"
-         ]
-      },
-      {
-         "tag":" Lusaka ",
-         "patterns":[
-            "Guide me to  Lusaka ?",
-            "Where do you get  Lusaka ?",
-            "What is the link to the  Lusaka ?",
-            "How do you get  Lusaka ?",
-            "Who is in Charge of  Lusaka ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/lusaka/ for more information"
-         ]
-      },
-      {
-         "tag":" Nairobi ",
-         "patterns":[
-            "Guide me to  Nairobi ?",
-            "Where do you get  Nairobi ?",
-            "What is the link to the  Nairobi ?",
-            "How do you get  Nairobi ?",
-            "Who is in Charge of  Nairobi ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/nairobi/ for more information"
-         ]
-      },
-      {
-         "tag":" Brussels ",
-         "patterns":[
-            "Guide me to  Brussels ?",
-            "Where do you get  Brussels ?",
-            "What is the link to the  Brussels ?",
-            "How do you get  Brussels ?",
-            "Who is in Charge of  Brussels ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/brussels/ for more information"
-         ]
-      },
-      {
-         "tag":" London ",
-         "patterns":[
-            "Guide me to  London ?",
-            "Where do you get  London ?",
-            "What is the link to the  London ?",
-            "How do you get  London ?",
-            "Who is in Charge of  London ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/london/ for more information"
-         ]
-      },
-      {
-         "tag":" Dubai ",
-         "patterns":[
-            "Guide me to  Dubai ?",
-            "Where do you get  Dubai ?",
-            "What is the link to the  Dubai ?",
-            "How do you get  Dubai ?",
-            "Who is in Charge of  Dubai ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/dubai/ for more information"
-         ]
-      },
-      {
-         "tag":" Guangzhou ",
-         "patterns":[
-            "Guide me to  Guangzhou ?",
-            "Where do you get  Guangzhou ?",
-            "What is the link to the  Guangzhou ?",
-            "How do you get  Guangzhou ?",
-            "Who is in Charge of  Guangzhou ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/guangzhou/ for more information"
-         ]
-      },
-      {
-         "tag":" Mumbai",
-         "patterns":[
-            "Guide me to  Mumbai?",
-            "Where do you get  Mumbai?",
-            "What is the link to the  Mumbai?",
-            "How do you get  Mumbai?",
-            "Who is in Charge of  Mumbai?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/explore-destinations/mumbai/ for more information"
-         ]
-      },
-      {
-         "tag":" Flight Offers",
-         "patterns":[
-            "Guide me to  Flight Offers?",
-            "Where do you get  Flight Offers?",
-            "What is the link to the  Flight Offers?",
-            "How do you get  Flight Offers?",
-            "Who is in Charge of  Flight Offers?"
-         ],
-         "responses":[
-            "You can use this link /fares for more information"
-         ]
-      },
-      {
-         "tag":" Destination offers",
-         "patterns":[
-            "Guide me to  Destination offers?",
-            "Where do you get  Destination offers?",
-            "What is the link to the  Destination offers?",
-            "How do you get  Destination offers?",
-            "Who is in Charge of  Destination offers?"
-         ],
-         "responses":[
-            "You can use this link /fares for more information"
-         ]
-      },
-      {
-         "tag":" Flight Pass ",
-         "patterns":[
-            "Guide me to  Flight Pass ?",
-            "Where do you get  Flight Pass ?",
-            "What is the link to the  Flight Pass ?",
-            "How do you get  Flight Pass ?",
-            "Who is in Charge of  Flight Pass ?"
-         ],
-         "responses":[
-            "You can use this link https://rwandair.optiontown.com/ for more information"
-         ]
-      },
-      {
-         "tag":" Experience & Info ",
-         "patterns":[
-            "Guide me to  Experience & Info ?",
-            "Where do you get  Experience & Info ?",
-            "What is the link to the  Experience & Info ?",
-            "How do you get  Experience & Info ?",
-            "Who is in Charge of  Experience & Info ?"
-         ],
-         "responses":[
-            "You can use this link # for more information"
-         ]
-      },
-      {
-         "tag":" Five-Step Health & Safety Guide ",
-         "patterns":[
-            "Guide me to  Five-Step Health & Safety Guide ?",
-            "Where do you get  Five-Step Health & Safety Guide ?",
-            "What is the link to the  Five-Step Health & Safety Guide ?",
-            "How do you get  Five-Step Health & Safety Guide ?",
-            "Who is in Charge of  Five-Step Health & Safety Guide ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/prepare-to-fly/five-step-health-safety-guide-2/ for more information"
-         ]
-      },
-      {
-         "tag":" Travel Insurance",
-         "patterns":[
-            "Guide me to  Travel Insurance?",
-            "Where do you get  Travel Insurance?",
-            "What is the link to the  Travel Insurance?",
-            "How do you get  Travel Insurance?",
-            "Who is in Charge of  Travel Insurance?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/prepare-to-fly/rwandair-travel-insurance/ for more information"
-         ]
-      },
-      {
-         "tag":" Medical Information",
-         "patterns":[
-            "Guide me to  Medical Information?",
-            "Where do you get  Medical Information?",
-            "What is the link to the  Medical Information?",
-            "How do you get  Medical Information?",
-            "Who is in Charge of  Medical Information?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/prepare-to-fly/medical-information/ for more information"
-         ]
-      },
-      {
-         "tag":" FAQ's",
-         "patterns":[
-            "Guide me to  FAQ's?",
-            "Where do you get  FAQ's?",
-            "What is the link to the  FAQ's?",
-            "How do you get  FAQ's?",
-            "Who is in Charge of  FAQ's?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/prepare-to-fly/faqs/ for more information"
-         ]
-      },
-      {
-         "tag":"Online Services",
-         "patterns":[
-            "Guide me to Online Services?",
-            "Where do you get Online Services?",
-            "What is the link to the Online Services?",
-            "How do you get Online Services?",
-            "Who is in Charge of Online Services?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/prepare-to-fly/online-services/ for more information"
-         ]
-      },
-      {
-         "tag":"Payment Options",
-         "patterns":[
-            "Guide me to Payment Options?",
-            "Where do you get Payment Options?",
-            "What is the link to the Payment Options?",
-            "How do you get Payment Options?",
-            "Who is in Charge of Payment Options?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/prepare-to-fly/payment-options/ for more information"
-         ]
-      },
-      {
-         "tag":"Baggage Claims",
-         "patterns":[
-            "Guide me to Baggage Claims?",
-            "Where do you get Baggage Claims?",
-            "What is the link to the Baggage Claims?",
-            "How do you get Baggage Claims?",
-            "Who is in Charge of Baggage Claims?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/prepare-to-fly/baggage-claims/ for more information"
-         ]
-      },
-      {
-         "tag":"Baggage",
-         "patterns":[
-            "Guide me to Baggage?",
-            "Where do you get Baggage?",
-            "What is the link to the Baggage?",
-            "How do you get Baggage?",
-            "Who is in Charge of Baggage?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/prepare-to-fly/baggage/ for more information"
-         ]
-      },
-      {
-         "tag":"Restricted Items",
-         "patterns":[
-            "Guide me to Restricted Items?",
-            "Where do you get Restricted Items?",
-            "What is the link to the Restricted Items?",
-            "How do you get Restricted Items?",
-            "Who is in Charge of Restricted Items?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/prepare-to-fly/restricted-items/ for more information"
-         ]
-      },
-      {
-         "tag":"Special Needs / Assistance",
-         "patterns":[
-            "Guide me to Special Needs / Assistance?",
-            "Where do you get Special Needs / Assistance?",
-            "What is the link to the Special Needs / Assistance?",
-            "How do you get Special Needs / Assistance?",
-            "Who is in Charge of Special Needs / Assistance?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/prepare-to-fly/special-needs-assistance/ for more information"
-         ]
-      },
-      {
-         "tag":" Kigali airport ",
-         "patterns":[
-            "Guide me to  Kigali airport ?",
-            "Where do you get  Kigali airport ?",
-            "What is the link to the  Kigali airport ?",
-            "How do you get  Kigali airport ?",
-            "Who is in Charge of  Kigali airport ?"
-         ],
-         "responses":[
-            "You can use this link  for more information"
-         ]
-      },
-      {
-         "tag":"Lounges ",
-         "patterns":[
-            "Guide me to Lounges ?",
-            "Where do you get Lounges ?",
-            "What is the link to the Lounges ?",
-            "How do you get Lounges ?",
-            "Who is in Charge of Lounges ?"
-         ],
-         "responses":[
-            "You can use this link  for more information"
-         ]
-      },
-      {
-         "tag":"Duty Free ",
-         "patterns":[
-            "Guide me to Duty Free ?",
-            "Where do you get Duty Free ?",
-            "What is the link to the Duty Free ?",
-            "How do you get Duty Free ?",
-            "Who is in Charge of Duty Free ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/on-board/duty-free/ for more information"
-         ]
-      },
-      {
-         "tag":" Economy Class ",
-         "patterns":[
-            "Guide me to  Economy Class ?",
-            "Where do you get  Economy Class ?",
-            "What is the link to the  Economy Class ?",
-            "How do you get  Economy Class ?",
-            "Who is in Charge of  Economy Class ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/on-board/economy-class/ for more information"
-         ]
-      },
-      {
-         "tag":"Premium Class ",
-         "patterns":[
-            "Guide me to Premium Class ?",
-            "Where do you get Premium Class ?",
-            "What is the link to the Premium Class ?",
-            "How do you get Premium Class ?",
-            "Who is in Charge of Premium Class ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/on-board/premium-class/ for more information"
-         ]
-      },
-      {
-         "tag":"Business Class ",
-         "patterns":[
-            "Guide me to Business Class ?",
-            "Where do you get Business Class ?",
-            "What is the link to the Business Class ?",
-            "How do you get Business Class ?",
-            "Who is in Charge of Business Class ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/on-board/business-class/ for more information"
-         ]
-      },
-      {
-         "tag":"Inflight Entertainment ",
-         "patterns":[
-            "Guide me to Inflight Entertainment ?",
-            "Where do you get Inflight Entertainment ?",
-            "What is the link to the Inflight Entertainment ?",
-            "How do you get Inflight Entertainment ?",
-            "Who is in Charge of Inflight Entertainment ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/on-board/inflight-entertainment/ for more information"
-         ]
-      },
-      {
-         "tag":"Wifi ",
-         "patterns":[
-            "Guide me to Wifi ?",
-            "Where do you get Wifi ?",
-            "What is the link to the Wifi ?",
-            "How do you get Wifi ?",
-            "Who is in Charge of Wifi ?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/on-board/wifi/ for more information"
-         ]
-      },
-      {
-         "tag":"Cuisine",
-         "patterns":[
-            "Guide me to Cuisine?",
-            "Where do you get Cuisine?",
-            "What is the link to the Cuisine?",
-            "How do you get Cuisine?",
-            "Who is in Charge of Cuisine?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/information/on-board/cuisine/ for more information"
-         ]
-      },
-      {
-         "tag":"Cargo",
-         "patterns":[
-            "Guide me to Cargo?",
-            "Where do you get Cargo?",
-            "What is the link to the Cargo?",
-            "How do you get Cargo?",
-            "Who is in Charge of Cargo?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/business-solutions/cargo/ for more information"
-         ]
-      },
-      {
-         "tag":" Loyalty ",
-         "patterns":[
-            "Guide me to  Loyalty ?",
-            "Where do you get  Loyalty ?",
-            "What is the link to the  Loyalty ?",
-            "How do you get  Loyalty ?",
-            "Who is in Charge of  Loyalty ?"
-         ],
-         "responses":[
-            "You can use this link # for more information"
-         ]
-      },
-      {
-         "tag":" Earn Miles/ Accruals",
-         "patterns":[
-            "Guide me to  Earn Miles/ Accruals?",
-            "Where do you get  Earn Miles/ Accruals?",
-            "What is the link to the  Earn Miles/ Accruals?",
-            "How do you get  Earn Miles/ Accruals?",
-            "Who is in Charge of  Earn Miles/ Accruals?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/dream-miles/earn-miles-accruals/ for more information"
-         ]
-      },
-      {
-         "tag":"Earn Calculator",
-         "patterns":[
-            "Guide me to Earn Calculator?",
-            "Where do you get Earn Calculator?",
-            "What is the link to the Earn Calculator?",
-            "How do you get Earn Calculator?",
-            "Who is in Charge of Earn Calculator?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/dream-miles/spend-miles-redeem/ for more information"
-         ]
-      },
-      {
-         "tag":" Spend Miles/Redeem",
-         "patterns":[
-            "Guide me to  Spend Miles/Redeem?",
-            "Where do you get  Spend Miles/Redeem?",
-            "What is the link to the  Spend Miles/Redeem?",
-            "How do you get  Spend Miles/Redeem?",
-            "Who is in Charge of  Spend Miles/Redeem?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/dream-miles/spend-miles-redeem/ for more information"
-         ]
-      },
-      {
-         "tag":" Sign-Up/Member Login",
-         "patterns":[
-            "Guide me to  Sign-Up/Member Login?",
-            "Where do you get  Sign-Up/Member Login?",
-            "What is the link to the  Sign-Up/Member Login?",
-            "How do you get  Sign-Up/Member Login?",
-            "Who is in Charge of  Sign-Up/Member Login?"
-         ],
-         "responses":[
-            "You can use this link https://dreammiles.frequentflyer.aero/pub/#/main/not-authenticated/enrollment#new_tab%23new_tab for more information"
-         ]
-      },
-      {
-         "tag":"Global Travel Wallet",
-         "patterns":[
-            "Guide me to Global Travel Wallet?",
-            "Where do you get Global Travel Wallet?",
-            "What is the link to the Global Travel Wallet?",
-            "How do you get Global Travel Wallet?",
-            "Who is in Charge of Global Travel Wallet?"
-         ],
-         "responses":[
-            "You can use this link https://www.globaltravelwallet.com/Rwanda#new_tab#new_tab for more information"
-         ]
-      },
-      {
-         "tag":" \r\n\t\t\t                                                  Forgot Password ?\r\n                                            ",
-         "patterns":[
-            "Guide me to  \r\n\t\t\t                                                  Forgot Password ?\r\n                                            ?",
-            "Where do you get  \r\n\t\t\t                                                  Forgot Password ?\r\n                                            ?",
-            "What is the link to the  \r\n\t\t\t                                                  Forgot Password ?\r\n                                            ?",
-            "How do you get  \r\n\t\t\t                                                  Forgot Password ?\r\n                                            ?",
-            "Who is in Charge of  \r\n\t\t\t                                                  Forgot Password ?\r\n                                            ?"
-         ],
-         "responses":[
-            "You can use this link https://dreammiles.frequentflyer.aero/pub/#/main/not-authenticated/forgotPassword for more information"
-         ]
-      },
-      {
-         "tag":" \r\n                         Join",
-         "patterns":[
-            "Guide me to  \r\n                         Join?",
-            "Where do you get  \r\n                         Join?",
-            "What is the link to the  \r\n                         Join?",
-            "How do you get  \r\n                         Join?",
-            "Who is in Charge of  \r\n                         Join?"
-         ],
-         "responses":[
-            "You can use this link https://dreammiles.frequentflyer.aero/pub/#/main/not-authenticated/enrollment#new_tab%23new_tab for more information"
-         ]
-      },
-      {
-         "tag":" ",
-         "patterns":[
-            "Guide me to  ?",
-            "Where do you get  ?",
-            "What is the link to the  ?",
-            "How do you get  ?",
-            "Who is in Charge of  ?"
-         ],
-         "responses":[
-            "You can use this link #mycarousel for more information"
-         ]
-      },
-      {
-         "tag":" ",
-         "patterns":[
-            "Guide me to  ?",
-            "Where do you get  ?",
-            "What is the link to the  ?",
-            "How do you get  ?",
-            "Who is in Charge of  ?"
-         ],
-         "responses":[
-            "You can use this link #mycarousel for more information"
-         ]
-      },
-      {
-         "tag":"Learn More",
-         "patterns":[
-            "Guide me to Learn More?",
-            "Where do you get Learn More?",
-            "What is the link to the Learn More?",
-            "How do you get Learn More?",
-            "Who is in Charge of Learn More?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/blog/slider/the-adventure-begins-now/ for more information"
-         ]
-      },
-      {
-         "tag":"Learn More",
-         "patterns":[
-            "Guide me to Learn More?",
-            "Where do you get Learn More?",
-            "What is the link to the Learn More?",
-            "How do you get Learn More?",
-            "Who is in Charge of Learn More?"
-         ],
-         "responses":[
-            "You can use this link # for more information"
-         ]
-      },
-      {
-         "tag":"\n\n\n\nInzozi\n",
-         "patterns":[
-            "Guide me to \n\n\n\nInzozi\n?",
-            "Where do you get \n\n\n\nInzozi\n?",
-            "What is the link to the \n\n\n\nInzozi\n?",
-            "How do you get \n\n\n\nInzozi\n?",
-            "Who is in Charge of \n\n\n\nInzozi\n?"
-         ],
-         "responses":[
-            "You can use this link https://rwandair.com/dist/phoenix/V1.0/documents/magazine/INZOZI_RwandAir_July-Aug-22_eEdition-min.pdf for more information"
-         ]
-      },
-      {
-         "tag":"\n\n\n\nHotel\n",
-         "patterns":[
-            "Guide me to \n\n\n\nHotel\n?",
-            "Where do you get \n\n\n\nHotel\n?",
-            "What is the link to the \n\n\n\nHotel\n?",
-            "How do you get \n\n\n\nHotel\n?",
-            "Who is in Charge of \n\n\n\nHotel\n?"
-         ],
-         "responses":[
-            "You can use this link https://www.booking.com/index.html?aid=1469853#new_tab for more information"
-         ]
-      },
-      {
-         "tag":"\n\n\n\nCars Rental\n",
-         "patterns":[
-            "Guide me to \n\n\n\nCars Rental\n?",
-            "Where do you get \n\n\n\nCars Rental\n?",
-            "What is the link to the \n\n\n\nCars Rental\n?",
-            "How do you get \n\n\n\nCars Rental\n?",
-            "Who is in Charge of \n\n\n\nCars Rental\n?"
-         ],
-         "responses":[
-            "You can use this link https://cars.cartrawler.com/rwandair/?ClientID=534058#/searchcars for more information"
-         ]
-      },
-      {
-         "tag":"\n\n\n\nTours\n ",
-         "patterns":[
-            "Guide me to \n\n\n\nTours\n ?",
-            "Where do you get \n\n\n\nTours\n ?",
-            "What is the link to the \n\n\n\nTours\n ?",
-            "How do you get \n\n\n\nTours\n ?",
-            "Who is in Charge of \n\n\n\nTours\n ?"
-         ],
-         "responses":[
-            "You can use this link https://www.partner.viator.com/en/66457 for more information"
-         ]
-      },
-      {
-         "tag":"\n\n\n\nDuty Free\n ",
-         "patterns":[
-            "Guide me to \n\n\n\nDuty Free\n ?",
-            "Where do you get \n\n\n\nDuty Free\n ?",
-            "What is the link to the \n\n\n\nDuty Free\n ?",
-            "How do you get \n\n\n\nDuty Free\n ?",
-            "Who is in Charge of \n\n\n\nDuty Free\n ?"
-         ],
-         "responses":[
-            "You can use this link http://www.rwandairdutyfree.com/ for more information"
-         ]
-      },
-      {
-         "tag":"\n\n\n\nUpgrade\n",
-         "patterns":[
-            "Guide me to \n\n\n\nUpgrade\n?",
-            "Where do you get \n\n\n\nUpgrade\n?",
-            "What is the link to the \n\n\n\nUpgrade\n?",
-            "How do you get \n\n\n\nUpgrade\n?",
-            "Who is in Charge of \n\n\n\nUpgrade\n?"
-         ],
-         "responses":[
-            "You can use this link # for more information"
-         ]
-      },
-      {
-         "tag":"",
-         "patterns":[
-            "Guide me to ?",
-            "Where do you get ?",
-            "What is the link to the ?",
-            "How do you get ?",
-            "Who is in Charge of ?"
-         ],
-         "responses":[
-            "You can use this link /information/prepare-to-fly/five-step-health-safety-guide-2/ for more information"
-         ]
-      },
-      {
-         "tag":"",
-         "patterns":[
-            "Guide me to ?",
-            "Where do you get ?",
-            "What is the link to the ?",
-            "How do you get ?",
-            "Who is in Charge of ?"
-         ],
-         "responses":[
-            "You can use this link /media-center/travel-alerts/travel-requirements-by-destination/ for more information"
-         ]
-      },
-      {
-         "tag":"",
-         "patterns":[
-            "Guide me to ?",
-            "Where do you get ?",
-            "What is the link to the ?",
-            "How do you get ?",
-            "Who is in Charge of ?"
-         ],
-         "responses":[
-            "You can use this link /media-center/news-press-releases/rwandair-flexible-policies-on-rebooking-cancellations-and-refunds/ for more information"
-         ]
-      },
-      {
-         "tag":"",
-         "patterns":[
-            "Guide me to ?",
-            "Where do you get ?",
-            "What is the link to the ?",
-            "How do you get ?",
-            "Who is in Charge of ?"
-         ],
-         "responses":[
-            "You can use this link /information/prepare-to-fly/rwandair-travel-insurance/ for more information"
-         ]
-      },
-      {
-         "tag":"Explore More",
-         "patterns":[
-            "Guide me to Explore More?",
-            "Where do you get Explore More?",
-            "What is the link to the Explore More?",
-            "How do you get Explore More?",
-            "Who is in Charge of Explore More?"
-         ],
-         "responses":[
-            "You can use this link /fares for more information"
-         ]
-      },
-      {
-         "tag":"Learn More",
-         "patterns":[
-            "Guide me to Learn More?",
-            "Where do you get Learn More?",
-            "What is the link to the Learn More?",
-            "How do you get Learn More?",
-            "Who is in Charge of Learn More?"
-         ],
-         "responses":[
-            "You can use this link # for more information"
-         ]
-      },
-      {
-         "tag":"Discover the world with our partner Qatar Airways\n",
-         "patterns":[
-            "Guide me to Discover the world with our partner Qatar Airways\n?",
-            "Where do you get Discover the world with our partner Qatar Airways\n?",
-            "What is the link to the Discover the world with our partner Qatar Airways\n?",
-            "How do you get Discover the world with our partner Qatar Airways\n?",
-            "Who is in Charge of Discover the world with our partner Qatar Airways\n?"
-         ],
-         "responses":[
-            "You can use this link /information/prepare-to-fly/interline-partnership/ for more information"
-         ]
-      },
-      {
-         "tag":"",
-         "patterns":[
-            "Guide me to ?",
-            "Where do you get ?",
-            "What is the link to the ?",
-            "How do you get ?",
-            "Who is in Charge of ?"
-         ],
-         "responses":[
-            "You can use this link /information/prepare-to-fly/spread-your-wings-now-pay-later/ for more information"
-         ]
-      },
-      {
-         "tag":"",
-         "patterns":[
-            "Guide me to ?",
-            "Where do you get ?",
-            "What is the link to the ?",
-            "How do you get ?",
-            "Who is in Charge of ?"
-         ],
-         "responses":[
-            "You can use this link /information/prepare-to-fly/plan-your-travel-with-rwandair-app/ for more information"
-         ]
-      },
-      {
-         "tag":"Sign up Here",
-         "patterns":[
-            "Guide me to Sign up Here?",
-            "Where do you get Sign up Here?",
-            "What is the link to the Sign up Here?",
-            "How do you get Sign up Here?",
-            "Who is in Charge of Sign up Here?"
-         ],
-         "responses":[
-            "You can use this link https://dreammiles.frequentflyer.aero/pub/#/main/not-authenticated/enrollment#new_tab%23new_tab for more information"
-         ]
-      },
-      {
-         "tag":"Who we are",
-         "patterns":[
-            "Guide me to Who we are?",
-            "Where do you get Who we are?",
-            "What is the link to the Who we are?",
-            "How do you get Who we are?",
-            "Who is in Charge of Who we are?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/about-us/who-we-are-n/ for more information"
-         ]
-      },
-      {
-         "tag":"Our team",
-         "patterns":[
-            "Guide me to Our team?",
-            "Where do you get Our team?",
-            "What is the link to the Our team?",
-            "How do you get Our team?",
-            "Who is in Charge of Our team?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/about-us/our-team/ for more information"
-         ]
-      },
-      {
-         "tag":"Fleet",
-         "patterns":[
-            "Guide me to Fleet?",
-            "Where do you get Fleet?",
-            "What is the link to the Fleet?",
-            "How do you get Fleet?",
-            "Who is in Charge of Fleet?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/about-us/fleet/ for more information"
-         ]
-      },
-      {
-         "tag":"Inzozi",
-         "patterns":[
-            "Guide me to Inzozi?",
-            "Where do you get Inzozi?",
-            "What is the link to the Inzozi?",
-            "How do you get Inzozi?",
-            "Who is in Charge of Inzozi?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/media-center/inzozi-magazine/ for more information"
-         ]
-      },
-      {
-         "tag":"News & Press releases",
-         "patterns":[
-            "Guide me to News & Press releases?",
-            "Where do you get News & Press releases?",
-            "What is the link to the News & Press releases?",
-            "How do you get News & Press releases?",
-            "Who is in Charge of News & Press releases?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/media-center/news-press-releases/ for more information"
-         ]
-      },
-      {
-         "tag":"Gallery",
-         "patterns":[
-            "Guide me to Gallery?",
-            "Where do you get Gallery?",
-            "What is the link to the Gallery?",
-            "How do you get Gallery?",
-            "Who is in Charge of Gallery?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/media-center/gallery/ for more information"
-         ]
-      },
-      {
-         "tag":"Travel alerts",
-         "patterns":[
-            "Guide me to Travel alerts?",
-            "Where do you get Travel alerts?",
-            "What is the link to the Travel alerts?",
-            "How do you get Travel alerts?",
-            "Who is in Charge of Travel alerts?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/media-center/travel-alerts/ for more information"
-         ]
-      },
-      {
-         "tag":"Careers",
-         "patterns":[
-            "Guide me to Careers?",
-            "Where do you get Careers?",
-            "What is the link to the Careers?",
-            "How do you get Careers?",
-            "Who is in Charge of Careers?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/connect-with-us/careers/ for more information"
-         ]
-      },
-      {
-         "tag":"Contact us",
-         "patterns":[
-            "Guide me to Contact us?",
-            "Where do you get Contact us?",
-            "What is the link to the Contact us?",
-            "How do you get Contact us?",
-            "Who is in Charge of Contact us?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/connect-with-us/contact-us/ for more information"
-         ]
-      },
-      {
-         "tag":"Tenders",
-         "patterns":[
-            "Guide me to Tenders?",
-            "Where do you get Tenders?",
-            "What is the link to the Tenders?",
-            "How do you get Tenders?",
-            "Who is in Charge of Tenders?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/connect-with-us/tenders/ for more information"
-         ]
-      },
-      {
-         "tag":"",
-         "patterns":[
-            "Guide me to ?",
-            "Where do you get ?",
-            "What is the link to the ?",
-            "How do you get ?",
-            "Who is in Charge of ?"
-         ],
-         "responses":[
-            "You can use this link https://www.facebook.com/FlyRwandAir/ for more information"
-         ]
-      },
-      {
-         "tag":" ",
-         "patterns":[
-            "Guide me to  ?",
-            "Where do you get  ?",
-            "What is the link to the  ?",
-            "How do you get  ?",
-            "Who is in Charge of  ?"
-         ],
-         "responses":[
-            "You can use this link https://twitter.com/FlyRwandAir for more information"
-         ]
-      },
-      {
-         "tag":"",
-         "patterns":[
-            "Guide me to ?",
-            "Where do you get ?",
-            "What is the link to the ?",
-            "How do you get ?",
-            "Who is in Charge of ?"
-         ],
-         "responses":[
-            "You can use this link https://www.youtube.com/user/flyrwandair for more information"
-         ]
-      },
-      {
-         "tag":" ",
-         "patterns":[
-            "Guide me to  ?",
-            "Where do you get  ?",
-            "What is the link to the  ?",
-            "How do you get  ?",
-            "Who is in Charge of  ?"
-         ],
-         "responses":[
-            "You can use this link https://www.instagram.com/flyrwandair/ for more information"
-         ]
-      },
-      {
-         "tag":" ",
-         "patterns":[
-            "Guide me to  ?",
-            "Where do you get  ?",
-            "What is the link to the  ?",
-            "How do you get  ?",
-            "Who is in Charge of  ?"
-         ],
-         "responses":[
-            "You can use this link https://www.linkedin.com/company/flyrwandair/ for more information"
-         ]
-      },
-      {
-         "tag":"Cargo",
-         "patterns":[
-            "Guide me to Cargo?",
-            "Where do you get Cargo?",
-            "What is the link to the Cargo?",
-            "How do you get Cargo?",
-            "Who is in Charge of Cargo?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/business-solutions/cargo/ for more information"
-         ]
-      },
-      {
-         "tag":"Cargo Tracking",
-         "patterns":[
-            "Guide me to Cargo Tracking?",
-            "Where do you get Cargo Tracking?",
-            "What is the link to the Cargo Tracking?",
-            "How do you get Cargo Tracking?",
-            "Who is in Charge of Cargo Tracking?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/business-solutions/cargo-tracking/ for more information"
-         ]
-      },
-      {
-         "tag":"Webmail",
-         "patterns":[
-            "Guide me to Webmail?",
-            "Where do you get Webmail?",
-            "What is the link to the Webmail?",
-            "How do you get Webmail?",
-            "Who is in Charge of Webmail?"
-         ],
-         "responses":[
-            "You can use this link https://mail.rwandair.com/owa#new_tab for more information"
-         ]
-      },
-      {
-         "tag":"Q-pulse",
-         "patterns":[
-            "Guide me to Q-pulse?",
-            "Where do you get Q-pulse?",
-            "What is the link to the Q-pulse?",
-            "How do you get Q-pulse?",
-            "Who is in Charge of Q-pulse?"
-         ],
-         "responses":[
-            "You can use this link https://q-pulse-svr.rwandair.com:2444/qpulse#new_tab for more information"
-         ]
-      },
-      {
-         "tag":"Terms & Conditions of carriage",
-         "patterns":[
-            "Guide me to Terms & Conditions of carriage?",
-            "Where do you get Terms & Conditions of carriage?",
-            "What is the link to the Terms & Conditions of carriage?",
-            "How do you get Terms & Conditions of carriage?",
-            "Who is in Charge of Terms & Conditions of carriage?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/our-policies/terms-conditions-of-carriage/ for more information"
-         ]
-      },
-      {
-         "tag":"Terms & Conditions of use",
-         "patterns":[
-            "Guide me to Terms & Conditions of use?",
-            "Where do you get Terms & Conditions of use?",
-            "What is the link to the Terms & Conditions of use?",
-            "How do you get Terms & Conditions of use?",
-            "Who is in Charge of Terms & Conditions of use?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/our-policies/terms-conditions-of-use/ for more information"
-         ]
-      },
-      {
-         "tag":"Privacy Policy",
-         "patterns":[
-            "Guide me to Privacy Policy?",
-            "Where do you get Privacy Policy?",
-            "What is the link to the Privacy Policy?",
-            "How do you get Privacy Policy?",
-            "Who is in Charge of Privacy Policy?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/our-policies/privacy-policy/ for more information"
-         ]
-      },
-      {
-         "tag":"Terms & Conditions for Online Payment",
-         "patterns":[
-            "Guide me to Terms & Conditions for Online Payment?",
-            "Where do you get Terms & Conditions for Online Payment?",
-            "What is the link to the Terms & Conditions for Online Payment?",
-            "How do you get Terms & Conditions for Online Payment?",
-            "Who is in Charge of Terms & Conditions for Online Payment?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/our-policies/terms-conditions-for-online-payment/ for more information"
-         ]
-      },
-      {
-         "tag":"General rules for the US market",
-         "patterns":[
-            "Guide me to General rules for the US market?",
-            "Where do you get General rules for the US market?",
-            "What is the link to the General rules for the US market?",
-            "How do you get General rules for the US market?",
-            "Who is in Charge of General rules for the US market?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/wp-content/uploads/2021/12/WB-WB1.pdf for more information"
-         ]
-      },
-      {
-         "tag":"ADM Policy",
-         "patterns":[
-            "Guide me to ADM Policy?",
-            "Where do you get ADM Policy?",
-            "What is the link to the ADM Policy?",
-            "How do you get ADM Policy?",
-            "Who is in Charge of ADM Policy?"
-         ],
-         "responses":[
-            "You can use this link https://www.rwandair.com/wp-content/uploads/2021/07/ADM-POLICY.pdf for more information"
-         ]
-      },
-      {
-         "tag":"Immigration and Emigration",
-         "patterns":[
-            "Guide me to Immigration and Emigration?",
-            "Where do you get Immigration and Emigration?",
-            "What is the link to the Immigration and Emigration?",
-            "How do you get Immigration and Emigration?",
-            "Who is in Charge of Immigration and Emigration?"
-         ],
-         "responses":[
-            "You can use this link https://www.migration.gov.rw/home/#new_tab for more information"
-         ]
-      },
-      {
-         "tag":"Rwanda Development Board",
-         "patterns":[
-            "Guide me to Rwanda Development Board?",
-            "Where do you get Rwanda Development Board?",
-            "What is the link to the Rwanda Development Board?",
-            "How do you get Rwanda Development Board?",
-            "Who is in Charge of Rwanda Development Board?"
-         ],
-         "responses":[
-            "You can use this link https://rdb.rw/#new_tab for more information"
-         ]
-      },
-      {
-         "tag":"Visit Rwanda",
-         "patterns":[
-            "Guide me to Visit Rwanda?",
-            "Where do you get Visit Rwanda?",
-            "What is the link to the Visit Rwanda?",
-            "How do you get Visit Rwanda?",
-            "Who is in Charge of Visit Rwanda?"
-         ],
-         "responses":[
-            "You can use this link https://www.visitrwanda.com/#new_tab for more information"
-         ]
-      },
-      {
-         "tag":"\n\n",
-         "patterns":[
-            "Guide me to \n\n?",
-            "Where do you get \n\n?",
-            "What is the link to the \n\n?",
-            "How do you get \n\n?",
-            "Who is in Charge of \n\n?"
-         ],
-         "responses":[
-            "You can use this link https://play.google.com/store/apps/details?id=com.amadeus.mercimdp.wb&hl=en&gl=US; for more information"
-         ]
-      },
-      {
-         "tag":"\n\n",
-         "patterns":[
-            "Guide me to \n\n?",
-            "Where do you get \n\n?",
-            "What is the link to the \n\n?",
-            "How do you get \n\n?",
-            "Who is in Charge of \n\n?"
-         ],
-         "responses":[
-            "You can use this link https://apps.apple.com/us/app/rwandair/id1455608534 for more information"
-         ]
-      },
-      {
-         "tag":"RwandAir IT",
-         "patterns":[
-            "Guide me to RwandAir IT?",
-            "Where do you get RwandAir IT?",
-            "What is the link to the RwandAir IT?",
-            "How do you get RwandAir IT?",
-            "Who is in Charge of RwandAir IT?"
-         ],
-         "responses":[
-            "You can use this link http://www.rwandair.com for more information"
-         ]
-      }
-   ]
-}
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      'tag': 'flight status',
+   'patterns': ['Guide me to flight status?',
+    '  Where do you get flight status?',
+    '  What is the link to the flight status?',
+    '  How do you get flight status?',
+    '  Who is in Charge of flight status?'],
+   'responses': ['You can use this link https://www.rwandair.com/book/ for more information']},
+  {'tag': 'track your cargo ',
+   'patterns': ['Guide me to track your cargo ?',
+    '  Where do you get track your cargo ?',
+    '  What is the link to the track your cargo ?',
+    '  How do you get track your cargo ?',
+    '  Who is in Charge of track your cargo ?'],
+   'responses': ['You can use this link https://www.rwandair.com/business-solutions/cargo-tracking/ for more information']},
+  {'tag': ' wheel chair ',
+   'patterns': ['Guide me to  wheel chair ?',
+    '  Where do you get  wheel chair ?',
+    '  What is the link to the  wheel chair ?',
+    '  How do you get  wheel chair ?',
+    '  Who is in Charge of  wheel chair ?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/prepare-to-fly/special-needs-assistance/ for more information']},
+  {'tag': ' pet info ',
+   'patterns': ['Guide me to  pet info ?',
+    '  Where do you get  pet info ?',
+    '  What is the link to the  pet info ?',
+    '  How do you get  pet info ?',
+    '  Who is in Charge of  pet info ?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/prepare-to-fly/special-needs-assistance/ for more information']},
+  {'tag': ' lost baggage',
+   'patterns': ['Guide me to  lost baggage?',
+    '  Where do you get  lost baggage?',
+    '  What is the link to the  lost baggage?',
+    '  How do you get  lost baggage?',
+    '  Who is in Charge of  lost baggage?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/prepare-to-fly/baggage-claims/ for more information']},
+  {'tag': 'special request   assistance',
+   'patterns': ['Guide me to special request   assistance?',
+    '  Where do you get special request   assistance?',
+    '  What is the link to the special request   assistance?',
+    '  How do you get special request   assistance?',
+    '  Who is in Charge of special request   assistance?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/prepare-to-fly/special-needs-assistance/ for more information']},
+  {'tag': 'loyalty programme',
+   'patterns': ['Guide me to loyalty programme?',
+    '  Where do you get loyalty programme?',
+    '  What is the link to the loyalty programme?',
+    '  How do you get loyalty programme?',
+    '  Who is in Charge of loyalty programme?'],
+   'responses': ['You can use this link https://www.rwandair.com/dream-miles/faqs/ for more information']},
+  {'tag': 'book flight',
+   'patterns': ['Guide me to book flight?',
+    '  Where do you get book flight?',
+    '  What is the link to the book flight?',
+    '  How do you get book flight?',
+    '  Who is in Charge of book flight?'],
+   'responses': ['You can use this link https://www.rwandair.com/book/ for more information']},
+  {'tag': 'where we fly',
+   'patterns': ['Guide me to where we fly?',
+    '  Where do you get where we fly?',
+    '  What is the link to the where we fly?',
+    '  How do you get where we fly?',
+    '  Who is in Charge of where we fly?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/ for more information']},
+  {'tag': 'flight schedule',
+   'patterns': ['Guide me to flight schedule?',
+    '  Where do you get flight schedule?',
+    '  What is the link to the flight schedule?',
+    '  How do you get flight schedule?',
+    '  Who is in Charge of flight schedule?'],
+   'responses': ['You can use this link https://www.rwandair.com/book/#timetable-tab for more information']},
+  {'tag': 'flight offers',
+   'patterns': ['Guide me to flight offers?',
+    '  Where do you get flight offers?',
+    '  What is the link to the flight offers?',
+    '  How do you get flight offers?',
+    '  Who is in Charge of flight offers?'],
+   'responses': ['You can use this link https://www.rwandair.com/fares/ for more information']},
+  {'tag': 'hotel',
+   'patterns': ['Guide me to hotel?',
+    '  Where do you get hotel?',
+    '  What is the link to the hotel?',
+    '  How do you get hotel?',
+    '  Who is in Charge of hotel?'],
+   'responses': ['You can use this link https://www.booking.com/index.html?aid=1469853#new_tab for more information']},
+  {'tag': 'cars',
+   'patterns': ['Guide me to cars?',
+    '  Where do you get cars?',
+    '  What is the link to the cars?',
+    '  How do you get cars?',
+    '  Who is in Charge of cars?'],
+   'responses': ['You can use this link https://cars.cartrawler.com/rwandair/?ClientID=534058#/searchcars for more information']},
+  {'tag': 'tours',
+   'patterns': ['Guide me to tours?',
+    '  Where do you get tours?',
+    '  What is the link to the tours?',
+    '  How do you get tours?',
+    '  Who is in Charge of tours?'],
+   'responses': ['You can use this link https://66457.partner.viator.com/#new_tabs for more information']},
+  {'tag': 'partner deals',
+   'patterns': ['Guide me to partner deals?',
+    '  Where do you get partner deals?',
+    '  What is the link to the partner deals?',
+    '  How do you get partner deals?',
+    '  Who is in Charge of partner deals?'],
+   'responses': ['You can use this link https://www.rwandair.com/promotional-offers/partner-deals/ for more information']},
+  {'tag': ' check in ',
+   'patterns': ['Guide me to  check in ?',
+    '  Where do you get  check in ?',
+    '  What is the link to the  check in ?',
+    '  How do you get  check in ?',
+    '  Who is in Charge of  check in ?'],
+   'responses': ['You can use this link https://www.rwandair.com/checkin/ for more information']},
+  {'tag': 'change flight',
+   'patterns': ['Guide me to change flight?',
+    '  Where do you get change flight?',
+    '  What is the link to the change flight?',
+    '  How do you get change flight?',
+    '  Who is in Charge of change flight?'],
+   'responses': ['You can use this link https://www.rwandair.com/book/#booking-tab for more information']},
+  {'tag': 'cancel flight',
+   'patterns': ['Guide me to cancel flight?',
+    '  Where do you get cancel flight?',
+    '  What is the link to the cancel flight?',
+    '  How do you get cancel flight?',
+    '  Who is in Charge of cancel flight?'],
+   'responses': ['You can use this link https://www.rwandair.com/book/#booking-tab for more information']},
+  {'tag': 'flight status ',
+   'patterns': ['Guide me to flight status ?',
+    '  Where do you get flight status ?',
+    '  What is the link to the flight status ?',
+    '  How do you get flight status ?',
+    '  Who is in Charge of flight status ?'],
+   'responses': ['You can use this link https://www.rwandair.com/book/#flightstatus-tab for more information']},
+  {'tag': 'choose seat',
+   'patterns': ['Guide me to choose seat?',
+    '  Where do you get choose seat?',
+    '  What is the link to the choose seat?',
+    '  How do you get choose seat?',
+    '  Who is in Charge of choose seat?'],
+   'responses': ['You can use this link https://www.rwandair.com/book/#booking-tab for more information']},
+  {'tag': 'travel insurance',
+   'patterns': ['Guide me to travel insurance?',
+    '  Where do you get travel insurance?',
+    '  What is the link to the travel insurance?',
+    '  How do you get travel insurance?',
+    '  Who is in Charge of travel insurance?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/prepare-to-fly/rwandair-travel-insurance/ for more information']},
+  {'tag': 'excess baggage ',
+   'patterns': ['Guide me to excess baggage ?',
+    '  Where do you get excess baggage ?',
+    '  What is the link to the excess baggage ?',
+    '  How do you get excess baggage ?',
+    '  Who is in Charge of excess baggage ?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/prepare-to-fly/baggage/ for more information']},
+  {'tag': ' abuja ',
+   'patterns': ['Guide me to  abuja ?',
+    '  Where do you get  abuja ?',
+    '  What is the link to the  abuja ?',
+    '  How do you get  abuja ?',
+    '  Who is in Charge of  abuja ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/abuja/ for more information']},
+  {'tag': ' accra ',
+   'patterns': ['Guide me to  accra ?',
+    '  Where do you get  accra ?',
+    '  What is the link to the  accra ?',
+    '  How do you get  accra ?',
+    '  Who is in Charge of  accra ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/accra/ for more information']},
+  {'tag': ' bangui ',
+   'patterns': ['Guide me to  bangui ?',
+    '  Where do you get  bangui ?',
+    '  What is the link to the  bangui ?',
+    '  How do you get  bangui ?',
+    '  Who is in Charge of  bangui ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/bangui/ for more information']},
+  {'tag': ' brazzaville ',
+   'patterns': ['Guide me to  brazzaville ?',
+    '  Where do you get  brazzaville ?',
+    '  What is the link to the  brazzaville ?',
+    '  How do you get  brazzaville ?',
+    '  Who is in Charge of  brazzaville ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/brazzaville/ for more information']},
+  {'tag': ' bujumbura ',
+   'patterns': ['Guide me to  bujumbura ?',
+    '  Where do you get  bujumbura ?',
+    '  What is the link to the  bujumbura ?',
+    '  How do you get  bujumbura ?',
+    '  Who is in Charge of  bujumbura ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/bujumbura/ for more information']},
+  {'tag': ' cape town ',
+   'patterns': ['Guide me to  cape town ?',
+    '  Where do you get  cape town ?',
+    '  What is the link to the  cape town ?',
+    '  How do you get  cape town ?',
+    '  Who is in Charge of  cape town ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/cape-town/ for more information']},
+  {'tag': ' cotonou ',
+   'patterns': ['Guide me to  cotonou ?',
+    '  Where do you get  cotonou ?',
+    '  What is the link to the  cotonou ?',
+    '  How do you get  cotonou ?',
+    '  Who is in Charge of  cotonou ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/cotonou/ for more information']},
+  {'tag': ' dar es salaam    ',
+   'patterns': ['Guide me to  dar es salaam    ?',
+    '  Where do you get  dar es salaam    ?',
+    '  What is the link to the  dar es salaam    ?',
+    '  How do you get  dar es salaam    ?',
+    '  Who is in Charge of  dar es salaam    ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/dar-es-salaam/ for more information']},
+  {'tag': ' douala ',
+   'patterns': ['Guide me to  douala ?',
+    '  Where do you get  douala ?',
+    '  What is the link to the  douala ?',
+    '  How do you get  douala ?',
+    '  Who is in Charge of  douala ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/douala/ for more information']},
+  {'tag': ' entebbe ',
+   'patterns': ['Guide me to  entebbe ?',
+    '  Where do you get  entebbe ?',
+    '  What is the link to the  entebbe ?',
+    '  How do you get  entebbe ?',
+    '  Who is in Charge of  entebbe ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/entebbe/ for more information']},
+  {'tag': ' harare ',
+   'patterns': ['Guide me to  harare ?',
+    '  Where do you get  harare ?',
+    '  What is the link to the  harare ?',
+    '  How do you get  harare ?',
+    '  Who is in Charge of  harare ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/harare/ for more information']},
+  {'tag': ' johannesburg ',
+   'patterns': ['Guide me to  johannesburg ?',
+    '  Where do you get  johannesburg ?',
+    '  What is the link to the  johannesburg ?',
+    '  How do you get  johannesburg ?',
+    '  Who is in Charge of  johannesburg ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/johannesburg/ for more information']},
+  {'tag': ' kamembe ',
+   'patterns': ['Guide me to  kamembe ?',
+    '  Where do you get  kamembe ?',
+    '  What is the link to the  kamembe ?',
+    '  How do you get  kamembe ?',
+    '  Who is in Charge of  kamembe ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/kamembe/ for more information']},
+  {'tag': ' kigali    ',
+   'patterns': ['Guide me to  kigali    ?',
+    '  Where do you get  kigali    ?',
+    '  What is the link to the  kigali    ?',
+    '  How do you get  kigali    ?',
+    '  Who is in Charge of  kigali    ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/kigali/ for more information']},
+  {'tag': ' kilimanjaro ',
+   'patterns': ['Guide me to  kilimanjaro ?',
+    '  Where do you get  kilimanjaro ?',
+    '  What is the link to the  kilimanjaro ?',
+    '  How do you get  kilimanjaro ?',
+    '  Who is in Charge of  kilimanjaro ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/kilimanjaro/ for more information']},
+  {'tag': ' lagos ',
+   'patterns': ['Guide me to  lagos ?',
+    '  Where do you get  lagos ?',
+    '  What is the link to the  lagos ?',
+    '  How do you get  lagos ?',
+    '  Who is in Charge of  lagos ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/lagos/ for more information']},
+  {'tag': ' libreville ',
+   'patterns': ['Guide me to  libreville ?',
+    '  Where do you get  libreville ?',
+    '  What is the link to the  libreville ?',
+    '  How do you get  libreville ?',
+    '  Who is in Charge of  libreville ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/libreville/ for more information']},
+  {'tag': ' lusaka ',
+   'patterns': ['Guide me to  lusaka ?',
+    '  Where do you get  lusaka ?',
+    '  What is the link to the  lusaka ?',
+    '  How do you get  lusaka ?',
+    '  Who is in Charge of  lusaka ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/lusaka/ for more information']},
+  {'tag': ' nairobi ',
+   'patterns': ['Guide me to  nairobi ?',
+    '  Where do you get  nairobi ?',
+    '  What is the link to the  nairobi ?',
+    '  How do you get  nairobi ?',
+    '  Who is in Charge of  nairobi ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/nairobi/ for more information']},
+  {'tag': ' brussels ',
+   'patterns': ['Guide me to  brussels ?',
+    '  Where do you get  brussels ?',
+    '  What is the link to the  brussels ?',
+    '  How do you get  brussels ?',
+    '  Who is in Charge of  brussels ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/brussels/ for more information']},
+  {'tag': ' london ',
+   'patterns': ['Guide me to  london ?',
+    '  Where do you get  london ?',
+    '  What is the link to the  london ?',
+    '  How do you get  london ?',
+    '  Who is in Charge of  london ?'],
+   'responses': ['You can use this link https://www.rwandair.com/london/ for more information']},
+  {'tag': ' dubai ',
+   'patterns': ['Guide me to  dubai ?',
+    '  Where do you get  dubai ?',
+    '  What is the link to the  dubai ?',
+    '  How do you get  dubai ?',
+    '  Who is in Charge of  dubai ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/dubai/ for more information']},
+  {'tag': ' guangzhou ',
+   'patterns': ['Guide me to  guangzhou ?',
+    '  Where do you get  guangzhou ?',
+    '  What is the link to the  guangzhou ?',
+    '  How do you get  guangzhou ?',
+    '  Who is in Charge of  guangzhou ?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/guangzhou/ for more information']},
+  {'tag': ' mumbai',
+   'patterns': ['Guide me to  mumbai?',
+    '  Where do you get  mumbai?',
+    '  What is the link to the  mumbai?',
+    '  How do you get  mumbai?',
+    '  Who is in Charge of  mumbai?'],
+   'responses': ['You can use this link https://www.rwandair.com/explore-destinations/mumbai/ for more information']},
+  {'tag': ' flight pass ',
+   'patterns': ['Guide me to  flight pass ?',
+    '  Where do you get  flight pass ?',
+    '  What is the link to the  flight pass ?',
+    '  How do you get  flight pass ?',
+    '  Who is in Charge of  flight pass ?'],
+   'responses': ['You can use this link https://rwandair.optiontown.com/ for more information']},
+  {'tag': ' five step health   safety guide ',
+   'patterns': ['Guide me to  five step health   safety guide ?',
+    '  Where do you get  five step health   safety guide ?',
+    '  What is the link to the  five step health   safety guide ?',
+    '  How do you get  five step health   safety guide ?',
+    '  Who is in Charge of  five step health   safety guide ?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/prepare-to-fly/five-step-health-safety-guide-2/ for more information']},
+  {'tag': ' travel insurance',
+   'patterns': ['Guide me to  travel insurance?',
+    '  Where do you get  travel insurance?',
+    '  What is the link to the  travel insurance?',
+    '  How do you get  travel insurance?',
+    '  Who is in Charge of  travel insurance?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/prepare-to-fly/rwandair-travel-insurance/ for more information']},
+  {'tag': ' medical information',
+   'patterns': ['Guide me to  medical information?',
+    '  Where do you get  medical information?',
+    '  What is the link to the  medical information?',
+    '  How do you get  medical information?',
+    '  Who is in Charge of  medical information?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/prepare-to-fly/medical-information/ for more information']},
+  {'tag': " faq's",
+   'patterns': ["Guide me to  faq's?",
+    "  Where do you get  faq's?",
+    "  What is the link to the  faq's?",
+    "  How do you get  faq's?",
+    "  Who is in Charge of  faq's?"],
+   'responses': ['You can use this link https://www.rwandair.com/information/prepare-to-fly/faqs/ for more information']},
+  {'tag': 'online services',
+   'patterns': ['Guide me to online services?',
+    '  Where do you get online services?',
+    '  What is the link to the online services?',
+    '  How do you get online services?',
+    '  Who is in Charge of online services?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/prepare-to-fly/online-services/ for more information']},
+  {'tag': 'payment options',
+   'patterns': ['Guide me to payment options?',
+    '  Where do you get payment options?',
+    '  What is the link to the payment options?',
+    '  How do you get payment options?',
+    '  Who is in Charge of payment options?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/prepare-to-fly/payment-options/ for more information']},
+  {'tag': 'baggage claims',
+   'patterns': ['Guide me to baggage claims?',
+    '  Where do you get baggage claims?',
+    '  What is the link to the baggage claims?',
+    '  How do you get baggage claims?',
+    '  Who is in Charge of baggage claims?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/prepare-to-fly/baggage-claims/ for more information']},
+  {'tag': 'baggage',
+   'patterns': ['Guide me to baggage?',
+    '  Where do you get baggage?',
+    '  What is the link to the baggage?',
+    '  How do you get baggage?',
+    '  Who is in Charge of baggage?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/prepare-to-fly/baggage/ for more information']},
+  {'tag': 'restricted items',
+   'patterns': ['Guide me to restricted items?',
+    '  Where do you get restricted items?',
+    '  What is the link to the restricted items?',
+    '  How do you get restricted items?',
+    '  Who is in Charge of restricted items?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/prepare-to-fly/restricted-items/ for more information']},
+  {'tag': 'special needs   assistance',
+   'patterns': ['Guide me to special needs   assistance?',
+    '  Where do you get special needs   assistance?',
+    '  What is the link to the special needs   assistance?',
+    '  How do you get special needs   assistance?',
+    '  Who is in Charge of special needs   assistance?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/prepare-to-fly/special-needs-assistance/ for more information']},
+  {'tag': 'duty free ',
+   'patterns': ['Guide me to duty free ?',
+    '  Where do you get duty free ?',
+    '  What is the link to the duty free ?',
+    '  How do you get duty free ?',
+    '  Who is in Charge of duty free ?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/on-board/duty-free/ for more information']},
+  {'tag': ' economy class ',
+   'patterns': ['Guide me to  economy class ?',
+    '  Where do you get  economy class ?',
+    '  What is the link to the  economy class ?',
+    '  How do you get  economy class ?',
+    '  Who is in Charge of  economy class ?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/on-board/economy-class/ for more information']},
+  {'tag': 'premium class ',
+   'patterns': ['Guide me to premium class ?',
+    '  Where do you get premium class ?',
+    '  What is the link to the premium class ?',
+    '  How do you get premium class ?',
+    '  Who is in Charge of premium class ?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/on-board/premium-class/ for more information']},
+  {'tag': 'business class ',
+   'patterns': ['Guide me to business class ?',
+    '  Where do you get business class ?',
+    '  What is the link to the business class ?',
+    '  How do you get business class ?',
+    '  Who is in Charge of business class ?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/on-board/business-class/ for more information']},
+  {'tag': 'inflight entertainment ',
+   'patterns': ['Guide me to inflight entertainment ?',
+    '  Where do you get inflight entertainment ?',
+    '  What is the link to the inflight entertainment ?',
+    '  How do you get inflight entertainment ?',
+    '  Who is in Charge of inflight entertainment ?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/on-board/inflight-entertainment/ for more information']},
+  {'tag': 'wifi ',
+   'patterns': ['Guide me to wifi ?',
+    '  Where do you get wifi ?',
+    '  What is the link to the wifi ?',
+    '  How do you get wifi ?',
+    '  Who is in Charge of wifi ?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/on-board/wifi/ for more information']},
+  {'tag': 'cuisine',
+   'patterns': ['Guide me to cuisine?',
+    '  Where do you get cuisine?',
+    '  What is the link to the cuisine?',
+    '  How do you get cuisine?',
+    '  Who is in Charge of cuisine?'],
+   'responses': ['You can use this link https://www.rwandair.com/information/on-board/cuisine/ for more information']},
+  {'tag': 'cargo',
+   'patterns': ['Guide me to cargo?',
+    '  Where do you get cargo?',
+    '  What is the link to the cargo?',
+    '  How do you get cargo?',
+    '  Who is in Charge of cargo?'],
+   'responses': ['You can use this link https://www.rwandair.com/business-solutions/cargo/ for more information']},
+  {'tag': ' earn miles  accruals',
+   'patterns': ['Guide me to  earn miles  accruals?',
+    '  Where do you get  earn miles  accruals?',
+    '  What is the link to the  earn miles  accruals?',
+    '  How do you get  earn miles  accruals?',
+    '  Who is in Charge of  earn miles  accruals?'],
+   'responses': ['You can use this link https://www.rwandair.com/dream-miles/earn-miles-accruals/ for more information']},
+  {'tag': 'earn calculator',
+   'patterns': ['Guide me to earn calculator?',
+    '  Where do you get earn calculator?',
+    '  What is the link to the earn calculator?',
+    '  How do you get earn calculator?',
+    '  Who is in Charge of earn calculator?'],
+   'responses': ['You can use this link https://www.rwandair.com/dream-miles/spend-miles-redeem/ for more information']},
+  {'tag': ' spend miles redeem',
+   'patterns': ['Guide me to  spend miles redeem?',
+    '  Where do you get  spend miles redeem?',
+    '  What is the link to the  spend miles redeem?',
+    '  How do you get  spend miles redeem?',
+    '  Who is in Charge of  spend miles redeem?'],
+   'responses': ['You can use this link https://www.rwandair.com/dream-miles/spend-miles-redeem/ for more information']},
+  {'tag': ' sign up member login',
+   'patterns': ['Guide me to  sign up member login?',
+    '  Where do you get  sign up member login?',
+    '  What is the link to the  sign up member login?',
+    '  How do you get  sign up member login?',
+    '  Who is in Charge of  sign up member login?'],
+   'responses': ['You can use this link https://dreammiles.frequentflyer.aero/pub/#/main/not-authenticated/enrollment#new_tab%23new_tab for more information']},
+  {'tag': 'global travel wallet',
+   'patterns': ['Guide me to global travel wallet?',
+    '  Where do you get global travel wallet?',
+    '  What is the link to the global travel wallet?',
+    '  How do you get global travel wallet?',
+    '  Who is in Charge of global travel wallet?'],
+   'responses': ['You can use this link https://www.globaltravelwallet.com/Rwanda#new_tab#new_tab for more information']},
+  {'tag': ' \r\n\t\t\t                                                  forgot password  \r\n                                            ',
+   'patterns': ['Guide me to  \r\n\t\t\t                                                  forgot password  \r\n                                            ?',
+    '  Where do you get  \r\n\t\t\t                                                  forgot password  \r\n                                            ?',
+    '  What is the link to the  \r\n\t\t\t                                                  forgot password  \r\n                                            ?',
+    '  How do you get  \r\n\t\t\t                                                  forgot password  \r\n                                            ?',
+    '  Who is in Charge of  \r\n\t\t\t                                                  forgot password  \r\n                                            ?'],
+   'responses': ['You can use this link https://dreammiles.frequentflyer.aero/pub/#/main/not-authenticated/forgotPassword for more information']},
+  {'tag': ' \r\n                         join',
+   'patterns': ['Guide me to  \r\n                         join?',
+    '  Where do you get  \r\n                         join?',
+    '  What is the link to the  \r\n                         join?',
+    '  How do you get  \r\n                         join?',
+    '  Who is in Charge of  \r\n                         join?'],
+   'responses': ['You can use this link https://dreammiles.frequentflyer.aero/pub/#/main/not-authenticated/enrollment#new_tab%23new_tab for more information']},
+  {'tag': 'learn more',
+   'patterns': ['Guide me to learn more?',
+    '  Where do you get learn more?',
+    '  What is the link to the learn more?',
+    '  How do you get learn more?',
+    '  Who is in Charge of learn more?'],
+   'responses': ['You can use this link https://www.rwandair.com/blog/slider/the-adventure-begins-now/ for more information']},
+  {'tag': '\n\n\n\ninzozi\n',
+   'patterns': ['Guide me to \n\n\n\ninzozi\n?',
+    '  Where do you get \n\n\n\ninzozi\n?',
+    '  What is the link to the \n\n\n\ninzozi\n?',
+    '  How do you get \n\n\n\ninzozi\n?',
+    '  Who is in Charge of \n\n\n\ninzozi\n?'],
+   'responses': ['You can use this link https://rwandair.com/dist/phoenix/V1.0/documents/magazine/INZOZI_RwandAir_July-Aug-22_eEdition-min.pdf for more information']},
+  {'tag': '\n\n\n\nhotel\n',
+   'patterns': ['Guide me to \n\n\n\nhotel\n?',
+    '  Where do you get \n\n\n\nhotel\n?',
+    '  What is the link to the \n\n\n\nhotel\n?',
+    '  How do you get \n\n\n\nhotel\n?',
+    '  Who is in Charge of \n\n\n\nhotel\n?'],
+   'responses': ['You can use this link https://www.booking.com/index.html?aid=1469853#new_tab for more information']},
+  {'tag': '\n\n\n\ncars rental\n',
+   'patterns': ['Guide me to \n\n\n\ncars rental\n?',
+    '  Where do you get \n\n\n\ncars rental\n?',
+    '  What is the link to the \n\n\n\ncars rental\n?',
+    '  How do you get \n\n\n\ncars rental\n?',
+    '  Who is in Charge of \n\n\n\ncars rental\n?'],
+   'responses': ['You can use this link https://cars.cartrawler.com/rwandair/?ClientID=534058#/searchcars for more information']},
+  {'tag': '\n\n\n\ntours\n ',
+   'patterns': ['Guide me to \n\n\n\ntours\n ?',
+    '  Where do you get \n\n\n\ntours\n ?',
+    '  What is the link to the \n\n\n\ntours\n ?',
+    '  How do you get \n\n\n\ntours\n ?',
+    '  Who is in Charge of \n\n\n\ntours\n ?'],
+   'responses': ['You can use this link https://www.partner.viator.com/en/66457 for more information']},
+  {'tag': 'sign up here',
+   'patterns': ['Guide me to sign up here?',
+    '  Where do you get sign up here?',
+    '  What is the link to the sign up here?',
+    '  How do you get sign up here?',
+    '  Who is in Charge of sign up here?'],
+   'responses': ['You can use this link https://dreammiles.frequentflyer.aero/pub/#/main/not-authenticated/enrollment#new_tab%23new_tab for more information']},
+  {'tag': 'who we are',
+   'patterns': ['Guide me to who we are?',
+    '  Where do you get who we are?',
+    '  What is the link to the who we are?',
+    '  How do you get who we are?',
+    '  Who is in Charge of who we are?'],
+   'responses': ['You can use this link https://www.rwandair.com/about-us/who-we-are-n/ for more information']},
+  {'tag': 'our team',
+   'patterns': ['Guide me to our team?',
+    '  Where do you get our team?',
+    '  What is the link to the our team?',
+    '  How do you get our team?',
+    '  Who is in Charge of our team?'],
+   'responses': ['You can use this link https://www.rwandair.com/about-us/our-team/ for more information']},
+  {'tag': 'fleet',
+   'patterns': ['Guide me to fleet?',
+    '  Where do you get fleet?',
+    '  What is the link to the fleet?',
+    '  How do you get fleet?',
+    '  Who is in Charge of fleet?'],
+   'responses': ['You can use this link https://www.rwandair.com/about-us/fleet/ for more information']},
+  {'tag': 'inzozi',
+   'patterns': ['Guide me to inzozi?',
+    '  Where do you get inzozi?',
+    '  What is the link to the inzozi?',
+    '  How do you get inzozi?',
+    '  Who is in Charge of inzozi?'],
+   'responses': ['You can use this link https://www.rwandair.com/media-center/inzozi-magazine/ for more information']},
+  {'tag': 'news   press releases',
+   'patterns': ['Guide me to news   press releases?',
+    '  Where do you get news   press releases?',
+    '  What is the link to the news   press releases?',
+    '  How do you get news   press releases?',
+    '  Who is in Charge of news   press releases?'],
+   'responses': ['You can use this link https://www.rwandair.com/media-center/news-press-releases/ for more information']},
+  {'tag': 'gallery',
+   'patterns': ['Guide me to gallery?',
+    '  Where do you get gallery?',
+    '  What is the link to the gallery?',
+    '  How do you get gallery?',
+    '  Who is in Charge of gallery?'],
+   'responses': ['You can use this link https://www.rwandair.com/media-center/gallery/ for more information']},
+  {'tag': 'travel alerts',
+   'patterns': ['Guide me to travel alerts?',
+    '  Where do you get travel alerts?',
+    '  What is the link to the travel alerts?',
+    '  How do you get travel alerts?',
+    '  Who is in Charge of travel alerts?'],
+   'responses': ['You can use this link https://www.rwandair.com/media-center/travel-alerts/ for more information']},
+  {'tag': 'careers',
+   'patterns': ['Guide me to careers?',
+    '  Where do you get careers?',
+    '  What is the link to the careers?',
+    '  How do you get careers?',
+    '  Who is in Charge of careers?'],
+   'responses': ['You can use this link https://www.rwandair.com/connect-with-us/careers/ for more information']},
+  {'tag': 'contact us',
+   'patterns': ['Guide me to contact us?',
+    '  Where do you get contact us?',
+    '  What is the link to the contact us?',
+    '  How do you get contact us?',
+    '  Who is in Charge of contact us?'],
+   'responses': ['You can use this link https://www.rwandair.com/connect-with-us/contact-us/ for more information']},
+  {'tag': 'tenders',
+   'patterns': ['Guide me to tenders?',
+    '  Where do you get tenders?',
+    '  What is the link to the tenders?',
+    '  How do you get tenders?',
+    '  Who is in Charge of tenders?'],
+   'responses': ['You can use this link https://www.rwandair.com/connect-with-us/tenders/ for more information']},
+  {'tag': '',
+   'patterns': ['Guide me to ?',
+    '  Where do you get ?',
+    '  What is the link to the ?',
+    '  How do you get ?',
+    '  Who is in Charge of ?'],
+   'responses': ['You can use this link https://www.facebook.com/FlyRwandAir/ for more information']},
+  {'tag': ' ',
+   'patterns': ['Guide me to  ?',
+    '  Where do you get  ?',
+    '  What is the link to the  ?',
+    '  How do you get  ?',
+    '  Who is in Charge of  ?'],
+   'responses': ['You can use this link https://twitter.com/FlyRwandAir for more information']},
+  {'tag': '',
+   'patterns': ['Guide me to ?',
+    '  Where do you get ?',
+    '  What is the link to the ?',
+    '  How do you get ?',
+    '  Who is in Charge of ?'],
+   'responses': ['You can use this link https://www.youtube.com/user/flyrwandair for more information']},
+  {'tag': ' ',
+   'patterns': ['Guide me to  ?',
+    '  Where do you get  ?',
+    '  What is the link to the  ?',
+    '  How do you get  ?',
+    '  Who is in Charge of  ?'],
+   'responses': ['You can use this link https://www.instagram.com/flyrwandair/ for more information']},
+  {'tag': ' ',
+   'patterns': ['Guide me to  ?',
+    '  Where do you get  ?',
+    '  What is the link to the  ?',
+    '  How do you get  ?',
+    '  Who is in Charge of  ?'],
+   'responses': ['You can use this link https://www.linkedin.com/company/flyrwandair/ for more information']},
+  {'tag': 'cargo',
+   'patterns': ['Guide me to cargo?',
+    '  Where do you get cargo?',
+    '  What is the link to the cargo?',
+    '  How do you get cargo?',
+    '  Who is in Charge of cargo?'],
+   'responses': ['You can use this link https://www.rwandair.com/business-solutions/cargo/ for more information']},
+  {'tag': 'cargo tracking',
+   'patterns': ['Guide me to cargo tracking?',
+    '  Where do you get cargo tracking?',
+    '  What is the link to the cargo tracking?',
+    '  How do you get cargo tracking?',
+    '  Who is in Charge of cargo tracking?'],
+   'responses': ['You can use this link https://www.rwandair.com/business-solutions/cargo-tracking/ for more information']},
+  {'tag': 'webmail',
+   'patterns': ['Guide me to webmail?',
+    '  Where do you get webmail?',
+    '  What is the link to the webmail?',
+    '  How do you get webmail?',
+    '  Who is in Charge of webmail?'],
+   'responses': ['You can use this link https://mail.rwandair.com/owa#new_tab for more information']},
+  {'tag': 'q pulse',
+   'patterns': ['Guide me to q pulse?',
+    '  Where do you get q pulse?',
+    '  What is the link to the q pulse?',
+    '  How do you get q pulse?',
+    '  Who is in Charge of q pulse?'],
+   'responses': ['You can use this link https://q-pulse-svr.rwandair.com:2444/qpulse#new_tab for more information']},
+  {'tag': 'terms   conditions of carriage',
+   'patterns': ['Guide me to terms   conditions of carriage?',
+    '  Where do you get terms   conditions of carriage?',
+    '  What is the link to the terms   conditions of carriage?',
+    '  How do you get terms   conditions of carriage?',
+    '  Who is in Charge of terms   conditions of carriage?'],
+   'responses': ['You can use this link https://www.rwandair.com/our-policies/terms-conditions-of-carriage/ for more information']},
+  {'tag': 'terms   conditions of use',
+   'patterns': ['Guide me to terms   conditions of use?',
+    '  Where do you get terms   conditions of use?',
+    '  What is the link to the terms   conditions of use?',
+    '  How do you get terms   conditions of use?',
+    '  Who is in Charge of terms   conditions of use?'],
+   'responses': ['You can use this link https://www.rwandair.com/our-policies/terms-conditions-of-use/ for more information']},
+  {'tag': 'privacy policy',
+   'patterns': ['Guide me to privacy policy?',
+    '  Where do you get privacy policy?',
+    '  What is the link to the privacy policy?',
+    '  How do you get privacy policy?',
+    '  Who is in Charge of privacy policy?'],
+   'responses': ['You can use this link https://www.rwandair.com/our-policies/privacy-policy/ for more information']},
+  {'tag': 'terms   conditions for online payment',
+   'patterns': ['Guide me to terms   conditions for online payment?',
+    '  Where do you get terms   conditions for online payment?',
+    '  What is the link to the terms   conditions for online payment?',
+    '  How do you get terms   conditions for online payment?',
+    '  Who is in Charge of terms   conditions for online payment?'],
+   'responses': ['You can use this link https://www.rwandair.com/our-policies/terms-conditions-for-online-payment/ for more information']},
+  {'tag': 'general rules for the us market',
+   'patterns': ['Guide me to general rules for the us market?',
+    '  Where do you get general rules for the us market?',
+    '  What is the link to the general rules for the us market?',
+    '  How do you get general rules for the us market?',
+    '  Who is in Charge of general rules for the us market?'],
+   'responses': ['You can use this link https://www.rwandair.com/wp-content/uploads/2021/12/WB-WB1.pdf for more information']},
+  {'tag': 'adm policy',
+   'patterns': ['Guide me to adm policy?',
+    '  Where do you get adm policy?',
+    '  What is the link to the adm policy?',
+    '  How do you get adm policy?',
+    '  Who is in Charge of adm policy?'],
+   'responses': ['You can use this link https://www.rwandair.com/wp-content/uploads/2021/07/ADM-POLICY.pdf for more information']},
+  {'tag': 'immigration and emigration',
+   'patterns': ['Guide me to immigration and emigration?',
+    '  Where do you get immigration and emigration?',
+    '  What is the link to the immigration and emigration?',
+    '  How do you get immigration and emigration?',
+    '  Who is in Charge of immigration and emigration?'],
+   'responses': ['You can use this link https://www.migration.gov.rw/home/#new_tab for more information']},
+  {'tag': 'rwanda development board',
+   'patterns': ['Guide me to rwanda development board?',
+    '  Where do you get rwanda development board?',
+    '  What is the link to the rwanda development board?',
+    '  How do you get rwanda development board?',
+    '  Who is in Charge of rwanda development board?'],
+   'responses': ['You can use this link https://rdb.rw/#new_tab for more information']},
+  {'tag': 'visit rwanda',
+   'patterns': ['Guide me to visit rwanda?',
+    '  Where do you get visit rwanda?',
+    '  What is the link to the visit rwanda?',
+    '  How do you get visit rwanda?',
+    '  Who is in Charge of visit rwanda?'],
+   'responses': ['You can use this link https://www.visitrwanda.com/#new_tab for more information']},
+  {'tag': '\n\n',
+   'patterns': ['Guide me to \n\n?',
+    '  Where do you get \n\n?',
+    '  What is the link to the \n\n?',
+    '  How do you get \n\n?',
+    '  Who is in Charge of \n\n?'],
+   'responses': ['You can use this link https://play.google.com/store/apps/details?id=com.amadeus.mercimdp.wb&hl=en&gl=US; for more information']},
+  {'tag': '\n\n',
+   'patterns': ['Guide me to \n\n?',
+    '  Where do you get \n\n?',
+    '  What is the link to the \n\n?',
+    '  How do you get \n\n?',
+    '  Who is in Charge of \n\n?'],
+   'responses': ['You can use this link https://apps.apple.com/us/app/rwandair/id1455608534 for more information']}]}
