@@ -1,7 +1,4 @@
-{
-  "intents": [
-    {
-      "tag": "greeting",
+{'intents': [{"tag": "greeting",
       "patterns": [
         "Hi",
         "Hey",
@@ -32,7 +29,8 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      'tag': 'flight status',
+   
+   'tag': 'flight status',
    'patterns': ['Guide me to flight status?',
     '  Where do you get flight status?',
     '  What is the link to the flight status?',
